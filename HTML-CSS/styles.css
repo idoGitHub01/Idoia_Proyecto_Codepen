@@ -1,0 +1,131 @@
+body {
+   margin: 0px;
+   font-family: 'Roboto', sans-serif;
+   }
+
+.navigation-wrapper {
+    height: 60px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.navigation-wrapper > .left-column {
+   display: flex;
+   align-items: center;
+}
+
+.navigation-wrapper > .middle-column {
+   display: flex;
+   align-items: center;
+}
+
+.navigation-wrapper > .right-column {
+   display: flex;
+   align-items: center;
+}
+
+.navigation-wrapper > .left-column  {
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+.navigation-wrapper >.middle-column {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   grid-gap: 220px;
+   width: 300px;
+}
+
+.navigation-wrapper >.middle-column > .link > .link-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 350px;
+   margin-left: 0%;
+   }
+
+.navigation-wrapper >.right-column > {
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+.navigation-wrapper >.right-column > .butoons-shearch-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 350px;
+}
+
+.navigation-wrapper > .middle-column > .link > .explore {
+   color: yellow;
+   margin-left: 15px;
+}
+
+a {
+   color: whitesmoke;
+   text-decoration: none;
+}
+
+h1 {
+   color: whitesmoke;
+   text-decoration: none;
+   font-size: small;
+}
+
+ .navigation-wrapper > .right-column > .butoons-shearch-wrapper > .boton-create {
+    padding: 10px 20px;
+    background-color: grey;
+    width: 50px;
+    border-radius: 2px;
+    color: whitesmoke; 
+ }
+
+ .navigation-wrapper > .right-column > .butoons-shearch-wrapper > .log-in {
+   padding: 10px 20px;
+   background-color: grey;
+   width: 50px;
+   border-radius: 2px;
+   color: whitesmoke;  
+ }
+
+ .navigation-wrapper > .right-column > .butoons-shearch-wrapper > .sing-up {
+   padding: 10px 20px;
+   background-color: grey;
+   width: 50px;
+   border-radius: 2px;
+   color: whitesmoke;  
+ }
+
+ .navigation-wrapper > .right-column > .butoons-shearch-wrapper > .icon-seach {
+   font-size: 1.5em;
+ }
+
+ .icon-hand {
+   font-size: 1.5em
+ }
+
+ .info {
+    height: 400px;
+    background-color: grey;
+    color: whitesmoke;
+}
+
+.extra-info {
+    height: 50px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+
+}
+
+.extra {
+    height: 60px;
+    background-color: grey; 
+}
